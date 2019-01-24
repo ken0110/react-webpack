@@ -4,7 +4,7 @@ import Menu from './../Menu/Menu';
 import routes from './../../routes';
 import { Switch, Route, BrowserRouter as Router, HashRouter } from 'react-router-dom';
 //console.log("abc");
-
+console.log("ken da lam duoc roi");
 class App extends Component {
     render() {
         return (
