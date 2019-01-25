@@ -23,7 +23,7 @@ const MenuLink = ({ label, to, activeOnlyWhenExact }) => {
                 var active = match ? 'active' : '';
                 return (
                     <li className={active}>
-                        <Link to={to}>
+                        <Link to={to} className="nav-link">
                             {label}
                         </Link>
                     </li>
@@ -38,7 +38,7 @@ class Menu extends Component {
         return (
             <div className="navbar navbar-expand-lg navbar-light bg-light">
                 <a className="navbar-brand">CALL API</a>
-                <ul className="navbar-nav mr-auto">
+                <ul className="navbar-nav">
                     {this.showMenus(menus)}
                 </ul>
             </div>

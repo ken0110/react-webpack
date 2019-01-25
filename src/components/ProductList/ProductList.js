@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class ProductList extends Component {
     render() {
         return (
-            <div className="panel panel-primary">
-                <div className="panel-heading">
-                    <h3 className="panel-title">Danh Sách Sản Phẩm</h3>
+            <div className="card card-primary">
+                <div className="card-heading">
+                    <h3 className="card-title">Danh Sách Sản Phẩm</h3>
                 </div>
-                <div className="panel-body">
+                <div className="card-body">
                     <table className="table table-bordered table-hover">
                         <thead>
                             <tr>
